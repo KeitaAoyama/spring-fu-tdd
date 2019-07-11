@@ -1,0 +1,6 @@
+settings:
+  h2:
+    # default url
+    url: "mem:test;DB_CLOSE_DELAY=-1"
+    username: "dev"
+    password: "dev"
