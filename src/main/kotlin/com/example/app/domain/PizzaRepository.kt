@@ -1,6 +1,5 @@
-package com.example.app.repository
+package com.example.app.domain
 
-import com.example.app.model.Pizza
 import org.springframework.data.r2dbc.core.DatabaseClient
 import org.springframework.data.r2dbc.core.asType
 import org.springframework.data.r2dbc.core.into

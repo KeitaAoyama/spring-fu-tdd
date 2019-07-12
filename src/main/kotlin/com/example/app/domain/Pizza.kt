@@ -1,3 +1,3 @@
-package com.example.app.model
+package com.example.app.domain
 
 data class Pizza(val id: Long, val style: String)

@@ -1,6 +1,6 @@
 package com.example.app
 
-import com.example.app.model.Pizza
+import com.example.app.domain.Pizza
 import org.junit.jupiter.api.AfterAll
 import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.Test

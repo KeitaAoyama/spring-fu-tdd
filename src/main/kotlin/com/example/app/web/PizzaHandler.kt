@@ -1,6 +1,6 @@
 package com.example.app.web
 
-import com.example.app.repository.PizzaRepository
+import com.example.app.domain.PizzaRepository
 import org.springframework.http.MediaType
 import org.springframework.web.reactive.function.server.ServerRequest
 import org.springframework.web.reactive.function.server.ServerResponse

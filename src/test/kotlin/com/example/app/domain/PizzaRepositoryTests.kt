@@ -1,7 +1,6 @@
-package com.example.app
+package com.example.app.domain
 
-import com.example.app.model.Pizza
-import com.example.app.repository.PizzaRepository
+import com.example.app.app
 import org.junit.jupiter.api.AfterAll
 import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.Test
@@ -55,7 +54,6 @@ class PizzaRepositoryTests {
                 .expectNext(Pizza(5L, "Upside-down"))
                 .verifyComplete()
     }
-
 
     @AfterAll
     fun afterAll() {
